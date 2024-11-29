@@ -1,0 +1,87 @@
+/* Body Styling */
+body {
+    background-color: #fde7f3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+
+/* Styling for div containers */
+div {
+    margin-bottom: 20px;
+}
+
+
+/* Main Heading Styling */
+h1 {
+    text-align: center;
+    color: #7c3450;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* Paragraph Styling */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 0 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Ordered List Styling */
+ol {
+    margin-left: 30px;
+    font-size: 16px;
+    color: #333;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Unordered List Styling */
+ul {
+    list-style-type: circle;
+    margin-left: 30px;
+    font-size: 16px;
+    color: #333;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Image Styling: rounded corners and hover effect */
+.styled-image {
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+    width: 400px;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.styled-image:hover {
+    transform: scale(1.1);
+}
+
+
+/* Button Styling: rounded corners and hover effect */
+.styled-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #441a34;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 20%;
+    transition: background-color 0.3s ease;
+}
+
+
+.styled-button:hover {
+    background-color: #5f274a;
+}
